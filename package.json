@@ -1,8 +1,8 @@
 {
-    "date": "Tue Jan 14 18:18:08 CET 2020",
+    "date": "Tue Jan 14 18:29:03 CET 2020",
     "name": "Slack",
     "format": "xml",
-    "description": "### Introduction\n\nSlack integration examples:\n\n- A Slack webhook endpoint for incoming events from Slack\n- A Slack client external object\n\n### Import\n\nTo import this module:\n\n- Create a module named `Slack`\n- Set the settings as either:\n\t- A simple URL reference: `https://www.simplicite.io/resources/modules/slack-examples-4.0.xml` (default)\n\t- A reference to the GitHub project: `{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-smlack.git\" } }`\n\n- Click on the _Import module_ button\n\n### Configure\n\nThere is one system parameters to configure:\n\n- The `SLACK_CREDENTIALS` in which you must set your Slack API client ID, secrets and signing secrets\n\n> **Note**: it is possible to ovveride these default parameters per user using corresponding user parameters.",
+    "description": "### Introduction\n\nSlack integration examples:\n\n- A Slack webhook endpoint for incoming events from Slack\n- A Slack client external object\n\n### Import\n\nTo import this module:\n\n- Create a module named `Slack`\n- Set the settings as either:\n\t- A simple URL reference: `https://www.simplicite.io/resources/modules/slack-examples-4.0.xml` (default)\n\t- A reference to the GitHub project: `{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-slack.git\" } }`\n\n- Click on the _Import module_ button\n\n### Configure\n\nThere is one system parameters to configure:\n\n- The `SLACK_CREDENTIALS` in which you must set your Slack API client ID, secrets and signing secrets\n\n> **Note**: it is possible to ovveride these default parameters per user using corresponding user parameters.",
     "files": ["Slack.xml"],
     "repository": {},
     "version": "4.0",

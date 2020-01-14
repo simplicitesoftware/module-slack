@@ -25,7 +25,7 @@ To import this module:
 - Create a module named `Slack`
 - Set the settings as either:
 	- A simple URL reference: `https://www.simplicite.io/resources/modules/slack-examples-4.0.xml` (default)
-	- A reference to the GitHub project: `{ "type": "git", "origin": { "uri": "https://github.com/simplicitesoftware/module-smlack.git" } }`
+	- A reference to the GitHub project: `{ "type": "git", "origin": { "uri": "https://github.com/simplicitesoftware/module-slack.git" } }`
 
 - Click on the _Import module_ button
 
@@ -36,6 +36,12 @@ There is one system parameters to configure:
 - The `SLACK_CREDENTIALS` in which you must set your Slack API client ID, secrets and signing secrets
 
 > **Note**: it is possible to ovveride these default parameters per user using corresponding user parameters.
+
+`SlackClientExample` external object definition
+-----------------------------------------------
+
+Slack client example
+
 
 `SlackWebhook` external object definition
 -----------------------------------------
