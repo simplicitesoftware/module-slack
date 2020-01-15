@@ -12,7 +12,7 @@ import com.simplicite.util.tools.SlackTool;
  */
 public class SlackClientExample extends com.simplicite.webapp.web.ResponsiveExternalObject {
 	private static final long serialVersionUID = 1L;
-	
+
 	@Override
 	public Object service(Parameters params) {
 		try {
