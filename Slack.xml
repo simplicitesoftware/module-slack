@@ -106,7 +106,7 @@ There is one system parameters to configure:
 		<obd_name>SlackDomain</obd_name>
 		<obd_comment/>
 		<obd_type>D</obd_type>
-		<obd_view_id.viw_name/>
+		<obd_view_id.viw_name>SlackHome</obd_view_id.viw_name>
 		<obd_nohome>0</obd_nohome>
 		<obd_icon>slack</obd_icon>
 		<obd_order>83000</obd_order>
@@ -270,6 +270,42 @@ There is one system parameters to configure:
 		<res_image>resources/Disposition/default/slack.png</res_image>
 		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
 	</data>
+	<data>
+		<res_object>
+			<object>
+				<name>ObjectExternal</name>
+				<data>
+					<obe_name>SlackClientExample</obe_name>
+				</data>
+			</object>
+		</res_object>
+		<res_type>HTML</res_type>
+		<res_lang>ANY</res_lang>
+		<res_code>HTML</res_code>
+		<res_cached>0</res_cached>
+		<res_file>resources/ObjectExternal/SlackClientExample/HTML.html</res_file>
+		<res_file_compiled/>
+		<res_image/>
+		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
+	</data>
+	<data>
+		<res_object>
+			<object>
+				<name>ObjectExternal</name>
+				<data>
+					<obe_name>SlackClientExample</obe_name>
+				</data>
+			</object>
+		</res_object>
+		<res_type>JS</res_type>
+		<res_lang>ANY</res_lang>
+		<res_code>SCRIPT</res_code>
+		<res_cached>0</res_cached>
+		<res_file>resources/ObjectExternal/SlackClientExample/SCRIPT.js</res_file>
+		<res_file_compiled>resources/ObjectExternal/SlackClientExample/SCRIPT.min.js</res_file_compiled>
+		<res_image/>
+		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
+	</data>
 </object>
 <object>
 	<name>TranslateDomain</name>
@@ -326,7 +362,7 @@ There is one system parameters to configure:
 		<tsl_typeView>V</tsl_typeView>
 		<tsl_id.viw_name>SlackHome</tsl_id.viw_name>
 		<tsl_lang>ENU</tsl_lang>
-		<tsl_value>SlackHome</tsl_value>
+		<tsl_value>Slack</tsl_value>
 		<tsl_help/>
 		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
 	</data>
@@ -334,7 +370,7 @@ There is one system parameters to configure:
 		<tsl_typeView>V</tsl_typeView>
 		<tsl_id.viw_name>SlackHome</tsl_id.viw_name>
 		<tsl_lang>FRA</tsl_lang>
-		<tsl_value>SlackHome</tsl_value>
+		<tsl_value>Slack</tsl_value>
 		<tsl_help/>
 		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
 	</data>
