@@ -23,7 +23,7 @@ public class SlackClientExample extends com.simplicite.webapp.web.ResponsiveExte
 			return new JSONObject().put("message", message).put("status", 200);
 		} catch (APIException e) {
 			AppLog.error(getClass(), "service", null, e, getGrant());
-			return null;
+			return serviceInternalServerError(e);
 		}
 	}
 }
