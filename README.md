@@ -23,9 +23,16 @@ Slack integration examples:
 To import this module:
 
 - Create a module named `Slack`
-- Set the settings as either:
-	- A simple URL reference: `https://www.simplicite.io/resources/modules/slack-examples-4.0.xml` (default)
-	- A reference to the GitHub project: `{ "type": "git", "origin": { "uri": "https://github.com/simplicitesoftware/module-slack.git" } }`
+- Set the settings as:
+
+```json
+{
+	"type": "git",
+	"origin": {
+		"uri": "https://github.com/simplicitesoftware/module-slack.git"
+	}
+}
+```
 
 - Click on the _Import module_ button
 

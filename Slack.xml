@@ -7,8 +7,13 @@
 		<mdl_name>Slack</mdl_name>
 		<mdl_version>4.0</mdl_version>
 		<mdl_prefix/>
-		<mdl_url><![CDATA[https://www.simplicite.io/resources/modules/slack-examples-4.0.xml]]></mdl_url>
-		<mdl_lastupd>2020-01-14 18:29:03</mdl_lastupd>
+		<mdl_url><![CDATA[{
+	"type": "git",
+	"origin": {
+		"uri": "https://github.com/simplicitesoftware/module-slack.git"
+	}
+}]]></mdl_url>
+		<mdl_lastupd>2020-01-16 13:24:56</mdl_lastupd>
 		<mdl_comment><![CDATA[### Introduction
 
 Slack integration examples:
@@ -21,9 +26,16 @@ Slack integration examples:
 To import this module:
 
 - Create a module named `Slack`
-- Set the settings as either:
-	- A simple URL reference: `https://www.simplicite.io/resources/modules/slack-examples-4.0.xml` (default)
-	- A reference to the GitHub project: `{ "type": "git", "origin": { "uri": "https://github.com/simplicitesoftware/module-slack.git" } }`
+- Set the settings as:
+
+```json
+{
+	"type": "git",
+	"origin": {
+		"uri": "https://github.com/simplicitesoftware/module-slack.git"
+	}
+}
+```
 
 - Click on the _Import module_ button
 
@@ -109,7 +121,7 @@ There is one system parameters to configure:
 		<obd_view_id.viw_name>SlackHome</obd_view_id.viw_name>
 		<obd_nohome>0</obd_nohome>
 		<obd_icon>slack</obd_icon>
-		<obd_order>83000</obd_order>
+		<obd_order>85000</obd_order>
 		<obd_domain_id.obd_name/>
 		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
 	</data>
@@ -212,7 +224,7 @@ There is one system parameters to configure:
 		<map_domain_id.obd_name>SlackDomain</map_domain_id.obd_name>
 		<map_object_id.obj_name>SlackClientExample</map_object_id.obj_name>
 		<map_process_id.pcs_name/>
-		<map_order>83010</map_order>
+		<map_order>85010</map_order>
 		<map_ext>0</map_ext>
 		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
 	</data>
@@ -268,6 +280,42 @@ There is one system parameters to configure:
 		<res_file/>
 		<res_file_compiled/>
 		<res_image>resources/Disposition/default/slack.png</res_image>
+		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
+	</data>
+	<data>
+		<res_object>
+			<object>
+				<name>Disposition</name>
+				<data>
+					<dis_code>default</dis_code>
+				</data>
+			</object>
+		</res_object>
+		<res_type>IMG</res_type>
+		<res_lang>ANY</res_lang>
+		<res_code>slack-module</res_code>
+		<res_cached>0</res_cached>
+		<res_file/>
+		<res_file_compiled/>
+		<res_image>resources/Disposition/default/slack-module.png</res_image>
+		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
+	</data>
+	<data>
+		<res_object>
+			<object>
+				<name>Disposition</name>
+				<data>
+					<dis_code>default</dis_code>
+				</data>
+			</object>
+		</res_object>
+		<res_type>IMG</res_type>
+		<res_lang>ANY</res_lang>
+		<res_code>slack-module-full</res_code>
+		<res_cached>0</res_cached>
+		<res_file/>
+		<res_file_compiled/>
+		<res_image>resources/Disposition/default/slack-module-full.png</res_image>
 		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
 	</data>
 	<data>
