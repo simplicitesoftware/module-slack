@@ -13,7 +13,7 @@
 		"uri": "https://github.com/simplicitesoftware/module-slack.git"
 	}
 }]]></mdl_url>
-		<mdl_lastupd>2020-01-16 13:24:56</mdl_lastupd>
+		<mdl_lastupd>2020-02-05 23:46:04</mdl_lastupd>
 		<mdl_comment><![CDATA[### Introduction
 
 Slack integration examples:
@@ -43,7 +43,7 @@ To import this module:
 
 There is one system parameters to configure:
 
-- The `SLACK_CREDENTIALS` in which you must set your Slack API client ID, secrets and signing secrets
+- The `SLACK_SERVICE` in which you must set your Slack API client ID, secrets and signing secrets
 
 > **Note**: it is possible to ovveride these default parameters per user using corresponding user parameters.]]></mdl_comment>
 	</data>

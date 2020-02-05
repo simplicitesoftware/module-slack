@@ -40,7 +40,7 @@ To import this module:
 
 There is one system parameters to configure:
 
-- The `SLACK_CREDENTIALS` in which you must set your Slack API client ID, secrets and signing secrets
+- The `SLACK_SERVICE` in which you must set your Slack API client ID, secrets and signing secrets
 
 > **Note**: it is possible to ovveride these default parameters per user using corresponding user parameters.
 
