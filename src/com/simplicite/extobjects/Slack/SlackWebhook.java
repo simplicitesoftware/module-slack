@@ -23,7 +23,7 @@ public class SlackWebhook extends com.simplicite.webapp.services.RESTServiceExte
 			JSONObject req = params.getJSONObject();
 			if (req != null) {
 				AppLog.info(getClass(), "post", req.toString(2), getGrant());
-				// TODO
+				// TODO: do something with Slack data
 				return new JSONObject().put("challenge", req.getString("challenge"));
 			} else {
 				return error(400, "Call me with a JSON body please!");
