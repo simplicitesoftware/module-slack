@@ -11,6 +11,8 @@
 `Slack` module definition
 =========================
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=simplicite-modules-Slack&metric=alert_status)](https://sonarcloud.io/dashboard?id=simplicite-modules-Slack)
+
 ### Introduction
 
 Slack integration examples:
