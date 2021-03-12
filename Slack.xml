@@ -62,6 +62,7 @@ There is one system parameters to configure:
 		<viw_scope/>
 		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
 		<viw_theme_id.thm_name>ThemeLight</viw_theme_id.thm_name>
+		<viw_lang/>
 	</data>
 </object>
 <object>
