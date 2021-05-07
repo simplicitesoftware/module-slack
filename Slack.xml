@@ -232,6 +232,7 @@ There is one system parameters to configure:
 		<vwi_show/>
 		<vwi_url/>
 		<vwi_image/>
+		<vwi_treeview_id.trv_name/>
 		<vwi_crosstab_id.ctb_name/>
 		<vwi_printtmpl_id.prt_name/>
 		<vwi_printtmpl_id.prt_lang/>

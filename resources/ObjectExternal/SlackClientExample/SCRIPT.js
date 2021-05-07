@@ -1,4 +1,4 @@
-var SlackClientExample = SlackClientExample || (function($) {
+var SlackClientExample = (function() {
 	var url, $msg;
 	
 	function render(params) {
@@ -20,4 +20,4 @@ var SlackClientExample = SlackClientExample || (function($) {
 	}
 
 	return { render: render };
-})(jQuery);
+})();
