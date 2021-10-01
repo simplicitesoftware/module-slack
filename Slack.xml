@@ -6,14 +6,14 @@
 	<data>
 		<mdl_name>Slack</mdl_name>
 		<mdl_version>5</mdl_version>
-		<mdl_prefix/>
+		<mdl_prefix>slack</mdl_prefix>
 		<mdl_url><![CDATA[{
 	"type": "git",
 	"origin": {
 		"uri": "https://github.com/simplicitesoftware/module-slack.git"
 	}
 }]]></mdl_url>
-		<mdl_lastupd>2020-02-05 23:46:04</mdl_lastupd>
+		<mdl_type>T</mdl_type>
 		<mdl_comment><![CDATA[[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=simplicite-modules-Slack&metric=alert_status)](https://sonarcloud.io/dashboard?id=simplicite-modules-Slack)
 
 ### Introduction
@@ -266,7 +266,6 @@ There is one system parameters to configure:
 		<res_code>slack</res_code>
 		<res_cached>0</res_cached>
 		<res_file/>
-		<res_file_compiled/>
 		<res_image>resources/Disposition/default/slack.png</res_image>
 		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
 	</data>
@@ -284,7 +283,6 @@ There is one system parameters to configure:
 		<res_code>slack-module</res_code>
 		<res_cached>0</res_cached>
 		<res_file/>
-		<res_file_compiled/>
 		<res_image>resources/Disposition/default/slack-module.svg</res_image>
 		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
 	</data>
@@ -302,7 +300,6 @@ There is one system parameters to configure:
 		<res_code>slack-module-screenshot</res_code>
 		<res_cached>0</res_cached>
 		<res_file/>
-		<res_file_compiled/>
 		<res_image>resources/Disposition/default/slack-module-screenshot.png</res_image>
 		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
 	</data>
@@ -320,7 +317,6 @@ There is one system parameters to configure:
 		<res_code>HTML</res_code>
 		<res_cached>0</res_cached>
 		<res_file>resources/ObjectExternal/SlackClientExample/HTML.html</res_file>
-		<res_file_compiled/>
 		<res_image/>
 		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
 	</data>
@@ -338,7 +334,6 @@ There is one system parameters to configure:
 		<res_code>SCRIPT</res_code>
 		<res_cached>0</res_cached>
 		<res_file>resources/ObjectExternal/SlackClientExample/SCRIPT.js</res_file>
-		<res_file_compiled>resources/ObjectExternal/SlackClientExample/SCRIPT.min.js</res_file_compiled>
 		<res_image/>
 		<row_module_id.mdl_name>Slack</row_module_id.mdl_name>
 	</data>
