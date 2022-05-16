@@ -1,9 +1,9 @@
 {
-    "date": "2021-10-01 18:20:59",
+    "date": "2022-05-16 16:59:12",
     "name": "Slack",
     "format": "xml",
     "files": ["Slack.xml"],
     "repository": {"origin": {"uri": "https://github.com/simplicitesoftware/module-slack.git"}},
     "version": "5",
-    "platform": "5.2.0-beta"
+    "platform": "5.2.3"
 }

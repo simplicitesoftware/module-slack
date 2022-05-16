@@ -20,7 +20,7 @@ public class SlackClientExample extends com.simplicite.webapp.web.ResponsiveExte
 			AppLog.info(getClass(), "service", "Posting to Slack, message: " + message, getGrant());
 			SlackTool st = new SlackTool(getGrant());
 			st.postMessage("demo", message);
-			return new JSONObject().put("message", message).put("status", 200);
+			return new JSONObject().put("message", message).put("status", 200); // or serviceInfo(message);
 		} catch (APIException e) {
 			AppLog.error(getClass(), "service", null, e, getGrant());
 			return serviceInternalServerError(e);

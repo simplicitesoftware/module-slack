@@ -106,7 +106,7 @@ There is one system parameters to configure:
 		<obd_comment/>
 		<obd_type>D</obd_type>
 		<obd_view_id.viw_name>SlackHome</obd_view_id.viw_name>
-		<obd_nohome>0</obd_nohome>
+		<obd_nohome>1</obd_nohome>
 		<obd_icon>slack</obd_icon>
 		<obd_order>85000</obd_order>
 		<obd_domain_id.obd_name/>
